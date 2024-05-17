@@ -3,8 +3,8 @@ import pandas as pd
 from dhanhq import dhanhq
 from datetime import datetime
 
-client_id = "1102743720"
-access_token  =  "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE3MzAzNjI5LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjc0MzcyMCJ9.Z5dInFugshNE1mB70IeW4DTWthBIhubmXKEibNqOQFPrhSdaSCHBL7hynAi6M-u4Cv82oEXg1rVf95G4pyITng"
+client_id = ""
+access_token  =  ""
 dhan = dhanhq(client_id, access_token)
 
 # Load symbols from CSV
